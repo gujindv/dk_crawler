@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
 			  lib/url_utils.rb
 		    lib/dk_crawler.rb
 			)
-	# s.executables   = ['crawler']
+  s.executables = ['crawler']
 	s.add_runtime_dependency 'nokogiri', '~> 1.8'
 	s.homepage    = 'http://rubygems.org/gems/yz_crawler'
 	s.license     = 'MIT'

@@ -2,7 +2,7 @@ require 'spider'
 require 'command_line_argument_parser'
 require 'url_store'
 
-class WebCrawler
+class DkCrawler
   def initialize
     @argument_parser = CommandLineArgumentParser.new
     @argument_parser.parse_arguments
