@@ -1,6 +1,6 @@
-require './spider'
-require './command_line_argument_parser'
-require './url_store'
+require 'spider'
+require 'command_line_argument_parser'
+require 'url_store'
 
 class WebCrawler
   def initialize

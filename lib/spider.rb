@@ -2,7 +2,7 @@ require 'net/http'
 require 'uri'
 require 'open-uri'
 require 'nokogiri'
-require './url_utils'
+require 'url_utils'
 
 class Spider
   include UrlUtils
